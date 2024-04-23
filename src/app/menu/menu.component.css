@@ -6,7 +6,24 @@ span {
     padding: 10px;
 }
 
+#span-img {
+    padding: 10px;
+    border-radius: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
 img {
-    width: 50px;
-    height: 40px;
+    width: 45px;
+    height: 35px;
+
+}
+
+#color-bar {
+    background-color: #3c00ffdf;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
