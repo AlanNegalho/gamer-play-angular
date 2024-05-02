@@ -1,0 +1,11 @@
+{
+    "produtos": [
+        {
+            "id": "1",
+            "produto": "Coca-Cola",
+            "descricao": "Refrigerante de cola",
+            "foto": "https://www.cocacolabrasil.com.br/content/dam/journey/br/pt/private/brands/coca-cola/COCA-COLA-ORIGINAL-RETORNO-2020-2.jpg",
+            "preco": "5.00"
+        }
+    ]
+}

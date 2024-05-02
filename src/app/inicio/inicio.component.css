@@ -23,11 +23,17 @@ h2 {
 
 mat-grid-list {
     margin: 10px 0px;
+
 }
 
 mat-grid-tile {
     padding: 2px;
     border-radius: 30px;
+
+}
+
+mat-card {
+    margin-bottom: 50px;
 }
 
 mat-card-header {
