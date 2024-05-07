@@ -1,13 +1,11 @@
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree } from '@angular/router';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { Router } from '@angular/router';
-
 
 @Injectable({
   providedIn: 'root'
 })
-
 export class GuardGuard implements CanActivate {
 
   constructor(private router: Router) { }
@@ -20,8 +18,7 @@ export class GuardGuard implements CanActivate {
       return true;
     }
 
-    this.router.navigate(['/login'])
-    return false;
-
+    // Navigate to the login page and return a promise that resolves to false
+    return this.router.navigate(['/login']).then(() => false);
   }
 }

@@ -2,3 +2,10 @@ table img {
     height: 50px;
     width: 50px;
 }
+
+td infor-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
