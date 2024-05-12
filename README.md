@@ -39,7 +39,7 @@ Certifique-se de ter as seguintes dependências instaladas em sua máquina antes
 ## Como Usar
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/gamer-play-angular.git
+    git clone https://github.com/AlanNegalho/gamer-play-angular.git
     ```
 
 2. Instale as dependências do projeto:
