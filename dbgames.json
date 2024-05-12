@@ -1,3 +1,25 @@
 {
-  "produtos": []
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "novo",
+      "descricao": "cs 1.6",
+      "foto": "mario.jpg",
+      "preco": 0
+    },
+    {
+      "id": 0,
+      "produto": "novo",
+      "descricao": "Descrição do jogo 2",
+      "foto": "mario.jpg",
+      "preco": 0
+    },
+    {
+      "id": 0,
+      "produto": "novo",
+      "descricao": "bom",
+      "foto": "mario.jpg",
+      "preco": 0
+    }
+  ]
 }

@@ -1,30 +1,72 @@
-# GamerPlayAngular
+# Gamer Play Angular 🎮
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+## Descrição
+Gamer Play Angular é um projeto construído com Angular para uma loja virtual de jogos. Este repositório contém o código-fonte do frontend da aplicação.
 
-## Development server
+## Dependências
+Certifique-se de ter as seguintes dependências instaladas em sua máquina antes de usar o projeto:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Node.js e npm:** Node.js é uma plataforma para executar JavaScript no servidor. npm é o sistema de gerenciamento de pacotes do Node.js.
+    ```bash
+    # Instale o Node.js e o npm no Linux/Ubuntu
+    sudo apt-get install software-properties-common
+    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+    sudo apt-get install nodejs
+    ```
 
-## Code scaffolding
+    Verifique se a instalação foi bem-sucedida com:
+    ```bash
+    node --version
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular CLI:** Angular CLI é uma ferramenta de linha de comando que simplifica o desenvolvimento Angular.
+    ```bash
+    # Instale o Angular CLI
+    npm install -g @angular/cli
+    ```
 
-## Build
+    Verifique se a instalação foi bem-sucedida com:
+    ```bash
+    ng --version
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **json-server:** json-server é uma biblioteca para criar uma API REST fake rapidamente.
+    ```bash
+    # Instale o json-server
+    npm install -g json-server
+    ```
 
-## Running unit tests
+## Como Usar
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/gamer-play-angular.git
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Instale as dependências do projeto:
+    ```bash
+    cd gamer-play-angular
+    npm install
+    ```
 
-## Running end-to-end tests
+3. Inicie o servidor da API fake com json-server:
+    ```bash
+    json-server --watch dbgames.json
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Em outro terminal, inicie o servidor de desenvolvimento Angular:
+    ```bash
+    ng serve
+    ```
 
-## Further help
+5. Abra seu navegador e acesse `http://localhost:4200/` para ver a aplicação em execução.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Login
+Para acessar a área de administração da aplicação, utilize as seguintes credenciais:
+- **Usuário:** admin
+- **Senha:** 1234
 
+## Imagens de Produtos
+As imagens dos produtos estão localizadas na pasta `assets/img`.
 
-EM DESENVOLVIMENTO
+---
+Em Desenvolvimento 🎮

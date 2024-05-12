@@ -20,7 +20,7 @@ const restritoRoutes: Routes = [
                     [GuardGuard]
             },
             {
-                path: 'editar/:id', component: AtualizaProdutoComponent, canActivate:
+                path: 'atualizar/:id', component: AtualizaProdutoComponent, canActivate:
                     [GuardGuard]
             }
         ]

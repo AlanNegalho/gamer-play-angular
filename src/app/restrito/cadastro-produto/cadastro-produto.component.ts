@@ -18,7 +18,7 @@ export class CadastroProdutoComponent implements OnInit {
 
   cadastrar() {
     this._produtoService.cadastrarProduto(this.produto).subscribe(
-      () => {
+      produto => {
         this.produto = new Produto(0, "", "", "", 0);
         alert("Cadastro Efetuado com Sucesso");
       },
